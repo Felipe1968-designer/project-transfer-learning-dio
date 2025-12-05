@@ -1,0 +1,65 @@
+# 🧠 Projeto de Transfer Learning — DIO
+
+Este projeto foi desenvolvido como parte do desafio da plataforma **DIO**, aplicando **Transfer Learning** em uma rede de Deep Learning utilizando Python e Google Colab.
+
+---
+
+## 🎯 Objetivo
+
+Aplicar Transfer Learning para treinar um modelo de classificação utilizando uma base de dados com duas classes.  
+O modelo foi treinado, avaliado, ajustado e salvo em formato `.h5`.
+
+---
+
+## 📂 Conteúdo do Repositório
+
+- **transfer_learning.ipynb** — Notebook completo do projeto  
+- **README.md** — Documentação explicando todo o processo  
+- **/images (opcional)** — Prints do treinamento e resultados  
+- **modelo_transfer_learning.h5 (opcional)** — Modelo salvo  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3
+- Google Colab
+- TensorFlow / Keras
+- Transfer Learning (MobileNetV2, VGG16, EfficientNet, etc)
+- Dataset com duas classes (pode ser personalizado)
+
+---
+
+## 📌 Passos Realizados no Notebook
+
+1. Importação das bibliotecas  
+2. Carregamento do dataset  
+3. Pré-processamento das imagens  
+4. Criação do modelo base pré-treinado (Transfer Learning)  
+5. Congelamento das camadas  
+6. Treinamento inicial  
+7. Fine-tuning (descongelar camadas superiores)  
+8. Avaliação do modelo  
+9. Salvamento do modelo (`modelo_transfer_learning.h5`)
+
+---
+
+## 🏁 Resultado Final
+
+O modelo foi treinado com sucesso utilizando Transfer Learning e atingiu um bom desempenho na classificação das duas classes escolhidas.
+
+---
+
+## 📎 Como Executar
+
+1. Baixe ou abra o notebook `.ipynb`
+2. Abra no Google Colab
+3. Execute as células passo a passo
+4. Ajuste caminhos do dataset, se necessário
+
+---
+
+## 👤 Autor
+
+**Seu Nome Aqui**  
+Projeto desenvolvido para o desafio da **Digital Innovation One (DIO)**.
